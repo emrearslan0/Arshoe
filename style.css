@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    background-color: whitesmoke;
+    text-align: center;
+}
+ul {
+
+    list-style-type: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    overflow: hidden;
+
+    background-color: orangered;
+
+    position: sticky;
+
+}
+.home-button {
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Sigmar One', cursive;
+    font-family: 'Tangerine', cursive;
+    font-size: 70px;
+    
+}
+.shoes {
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Sigmar One', cursive;
+    font-family: 'Tangerine', cursive;
+    font-family: 'Yellowtail', cursive;
+    font-size: xx-large;
+    padding-top: 15px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+
+    color: black;
+
+    text-align: center;
+
+    padding: 14px 30px;
+
+    text-decoration: none;
+
+    transition: 500ms ;
+
+}
+li a:hover:not(.active) {
+    background-color: orange;
+}
+
+.discount {
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 1500px;
+    height: 450px;
+    background-color:lightgreen;
+    border-radius: 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Odibee Sans', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large;
+}
+.discount-text {
+    padding-top: 200px;
+    padding-left: 50px;
+    float: left;
+}
+.discountimage {
+    float: right;
+    padding-right: 200px;
+}
+.discount2 {
+    margin-top: 500px;
+    width: 1500px;
+    height: 450px;
+    background-color: yellow;
+    border-radius: 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Odibee Sans', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+.discount-text2 {
+    padding-top: 200px;
+    padding-left: 50px;
+    float: left;
+}
+.discountimage2 {
+    float: right;
+    padding-right: 200px;
+}
+
+
+
+
+
+.card {
+    background: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    height: 320px;
+    margin: 1rem;
+    position: relative;
+    width: 300px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.card:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.card .btn-sepet {
+    font-weight: lighter;
+    font-size: smaller;
+    border-radius: 10px;
+    transition: 350ms;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+.card .btn-sepet:hover {
+    background-color: orangered;
+}
